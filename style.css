@@ -304,11 +304,14 @@
     margin: 2px;
     border: 1px solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .list .card-list:hover {
     background-color: #DFA67B;
     color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 .list .list-content {
@@ -338,43 +341,31 @@
 
 footer {
     background-color: #eee;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-bottom: -20px;
     padding: 20px;
     text-align: center;
+    box-shadow: 5px 7px 10px grey;
 }
 
 .social-icons {
-    font-size: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
 }
 
 .social-icons a {
-    color: #333;
-    margin-right: 10px;
-    transition: color 0.2s ease-in-out;
+    color: #fff;
+    font-size: 20px;
 }
 
 .social-icons a:hover {
-    color: #007bff;
-}
-
-.fa {
-    display: inline-block;
-    font-size: inherit;
-    font-style: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-facebook:before {
-    content: "\f09a";
-}
-
-.fa-twitter:before {
-    content: "\f099";
-}
-
-.fa-instagram:before {
-    content: "\f16d";
+    color: #333;
 }
