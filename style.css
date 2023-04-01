@@ -218,7 +218,7 @@
     flex-wrap: wrap;
 }
 
-.card {
+.row .card {
     width: 220px;
     height: 300px;
     margin: 0;
@@ -226,29 +226,29 @@
     transition: transform 0.3s;
 }
 
-.card:hover {
+.row .card:hover {
     background-color: #fff;
     transform: translateY(-10px);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-content {
+.row .card-content {
     padding: 20px;
 }
 
-.card-content h3 {
+.row .card-content h3 {
     font-size: 1.5rem;
     margin-top: -20px;
     margin-bottom: 20px;
 }
 
-.card-content p {
+.row .card-content p {
     font-size: 1rem;
     margin-bottom: 20px;
     line-height: 1.5;
 }
 
-.cta-button {
+.row .cta-button {
     display: inline-block;
     padding: 15px 30px;
     background-color: #333;
@@ -259,7 +259,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.cta-button:hover {
+.row .cta-button:hover {
     background-color: #DFA67B;
     color: #fff;
 }
@@ -277,7 +277,104 @@
     margin: 5px auto;
     /* text-align: center; */
 }
+
 .blog h2 {
     font-size: 1.5rem;
+    margin-bottom: -15px;
+}
+
+.blog {
+    font-size: 1rem;
+    line-height: 1.5;
     margin-bottom: 30px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.list .card-list {
+    width: 800px;
+    height: 100px;
+    margin: 2px;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list .card-list:hover {
+    background-color: #DFA67B;
+    color: #fff;
+}
+
+.list .list-content {
+    padding: 20px;
+}
+
+.list h3 {
+    font-size: 1.5rem;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.list p {
+    width: 500px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.list h5 {
+    font-size: 1rem;
+    margin-top: -50px;
+    margin-bottom: -15px;
+    margin-left: 650px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #eee;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
 }
