@@ -331,11 +331,11 @@
     line-height: 1.5;
 }
 
-.list h5 {
+.list-content>h5 {
     font-size: 1rem;
     margin-top: -50px;
-    margin-bottom: -15px;
-    margin-left: 650px;
+    margin-bottom: -60px;
+    margin-left: 570px;
     font-weight: 400;
 }
 
@@ -362,7 +362,7 @@ footer {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #DFA67B;
     font-size: 20px;
 }
 
