@@ -289,54 +289,41 @@
     margin-bottom: 30px;
 }
 
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    width: 700px;
+.blog-content .card {
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-.list .card-list {
-    width: 800px;
-    height: 100px;
-    margin: 2px;
-    border: 1px solid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-
-.list .card-list:hover {
+.blog-content .card:hover {
     background-color: #DFA67B;
     color: #fff;
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-.list .list-content {
-    padding: 20px;
+.blog-content .card h2 {
+    font-size: 24px;
+    margin: 0;
 }
 
-.list h3 {
-    font-size: 1.5rem;
-    margin-top: -20px;
-    margin-bottom: -15px;
+.blog-content .card p {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.list p {
-    width: 500px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.list-content>h5 {
-    font-size: 1rem;
-    margin-top: -50px;
-    margin-bottom: -60px;
-    margin-left: 570px;
-    font-weight: 400;
+.blog-content .card .date {
+    position: absolute;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-left: 500px;
+    color: #333;
 }
 
 footer {
